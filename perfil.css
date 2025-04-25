@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url('image\ copy\ 4.png') no-repeat center center fixed;
+    background: url('image\ copy\ 5.png') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
 }
@@ -154,4 +154,57 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
+}
+/* Piedra, Papel o Tijera Styles */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.prompt-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.result {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #28a745;
+}
+
+.result.lose {
+    color: #dc3545;
+}
+
+.result.tie {
+    color: #ffc107;
 }
