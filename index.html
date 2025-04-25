@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi perfil</title>
+    <title>Mi Perfil</title>
     <link rel="stylesheet" href="perfil.css">
     <style>
-       
+        
     </style>
 </head>
 <body>
     <header>
-        <h1>Todas mienten</h1>
+        <h1>Mi Perfil</h1>
         <img src="leo.png" alt="Foto de perfil" class="profile-photo">
         <p><strong>Norberto Montalvo Ariel Leo</strong></p>
     </header>
@@ -19,33 +19,23 @@
         <section id="about">
             <h2>Sobre Mí</h2>
             <p>Soy un profesional apasionado por la tecnología y el desarrollo web. Me especializo en crear soluciones innovadoras y eficientes.</p>
-            <p>Como ingeniero de sistemas y software, tengo experiencia en el diseño, desarrollo e implementación de aplicaciones robustas y escalables. Mi enfoque está en la optimización de procesos, la integración de tecnologías modernas y la entrega de productos de alta calidad.</p>
-            <p>Además, disfruto resolver problemas complejos, colaborar con equipos multidisciplinarios y mantenerme actualizado con las últimas tendencias en tecnología para ofrecer soluciones que generen impacto positivo.</p>
         </section>
         <section id="skills">
             <h2>Habilidades</h2>
             <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Python, Java</li>
-            <li>Azure, Cloud Computing</li>
-            <li>Desarrollo Frontend y Backend</li>
-            <li>Trabajo en equipo y liderazgo</li>
-            <li>Profesional competitivo en áreas de tecnología</li>
-            <li>Diseño de arquitecturas de software</li>
-            <li>Gestión de bases de datos (SQL, NoSQL)</li>
-            <li>Metodologías ágiles (Scrum, Kanban)</li>
-            <li>Pruebas de software y aseguramiento de calidad</li>
-            <li>Automatización de procesos</li>
-            <li>Seguridad informática y ciberseguridad</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java</li>
+                <li>Azure, Cloud Computing</li>
+                <li>Desarrollo Frontend y Backend</li>
+                <li>Trabajo en equipo y liderazgo</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contacto</h2>
             <p>Email: <a href="mailto:liamleonorberto@gmail.com">liamleonorberto@gmail.com</a></p>
-            
             <h3>Redes Sociales</h3>
-            <p>
-                <a href="https://facebook.com" target="_blank"></a>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
                     <img src="image copy 2.png" alt="Facebook" style="width: 24px; height: 24px;">
                 </a>
                 <a href="https://instagram.com" target="_blank">
@@ -54,23 +44,12 @@
                 <a href="https://wa.me/1234567890" target="_blank">
                     <img src="image.png" alt="WhatsApp" style="width: 24px; height: 24px;">
                 </a>
-            </p>
+            </div>
             <button id="contactButton">Contáctame</button>
         </section>
-        <script>
-            const phoneNumberElement = document.getElementById('phoneNumber');
-            const incrementCallButton = document.getElementById('incrementCallButton');
-            let phoneNumber = 1234567890;
-
-            incrementCallButton.addEventListener('click', () => {
-            phoneNumber++;
-            phoneNumberElement.textContent = `+1 ${phoneNumber.toString().slice(0, 3)} ${phoneNumber.toString().slice(3, 6)} ${phoneNumber.toString().slice(6)}`;
-            });
-        </script>
     </main>
     <footer>
-        <p>&copy; 2025 </p>
+        <p>&copy; 2025 Norberto Montalvo Ariel Leo</p>
     </footer>
-    <script src="perfil.js"></script>
 </body>
 </html>
